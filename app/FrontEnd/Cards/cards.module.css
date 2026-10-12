@@ -311,3 +311,68 @@
     height: 36px !important;
   }
 }
+.footer {
+  background-color: #111827; /* Tom escuro moderno */
+  color: #f3f4f6;
+  padding: 2rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 2px solid #3b82f6; /* Detalhe azul em destaque */
+  width: 100%;
+}
+
+.conteudoFooter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+}
+
+.nome {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.nome span {
+  font-weight: normal;
+  color: #9ca3af;
+  font-size: 0.95rem;
+}
+
+.contatos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem; /* Mantém os itens de contato lado a lado */
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.itemContato {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #d1d5db;
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: color 0.2s ease;
+}
+
+.itemContato:hover {
+  color: #107229; /* Cor ao passar o mouse */
+}
+
+.icone {
+  color: #19bb17;
+  font-size: 1.1rem;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+  .contatos {
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+}

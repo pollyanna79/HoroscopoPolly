@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { useState } from 'react';
 import CamadaServico from './backend-camadaServico/cardsservicohoroscopo';
 import CamadaServicoChines from './backend-camadaServico/cardsservicohoroscopochines';
+import MeuRodape from './FrontEnd/Rodape';
 import { dadosSignos, getFraseDoDia, getSignoAtual } from './backend-camadaServico/colecao';
 import DetalhesSigno from './FrontEnd/Detalhes/detalhesSigno';
 import estilos from './FrontEnd/Cards/cards.module.css';
@@ -122,9 +123,9 @@ export default function Home() {
         </main>
       </div>
 
-      <footer className={estilos.footer}>
-      Pollyanna Dos Santos Souza ( Programadora Full Stack )
-      </footer>
+
+      <MeuRodape />
+    
     </div>
   );
 }
