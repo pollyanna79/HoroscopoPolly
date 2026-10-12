@@ -12,7 +12,7 @@ export const dadosSignos: Signo[] = [
     {
     nome: "Áries",
     dia: "21/03  - 20/04 ",
-    signo: '/aries.png', 
+    signo: '/aries.jpg', 
     inicio: { mes: 3, dia: 21 },
     fim: { mes: 4, dia: 20 },
     frases: [
@@ -52,7 +52,7 @@ export const dadosSignos: Signo[] = [
   {
     nome: "Touro",
     dia: "21/04  - 20/05 ",
-    signo: '/touro.jpg',
+    signo: '/boi.jpg',
     inicio: { mes: 4, dia: 21 },
     fim: { mes: 5, dia: 20 },
     frases: [
@@ -92,7 +92,7 @@ export const dadosSignos: Signo[] = [
   {
     nome: "Gêmeos",
     dia: "21/05  - 20/06 ",
-    signo:'/gemeos.jpg' ,
+    signo:'/gemeos.png' ,
     inicio: { mes: 5, dia: 21 },
     fim: { mes: 6, dia: 20 },
     frases: [
@@ -132,7 +132,7 @@ export const dadosSignos: Signo[] = [
   {
     nome: "Câncer",
     dia: "21/06  - 22/07",
-    signo: '/cancer.svg',
+    signo: '/cancer.jpg',
     inicio: { mes: 6, dia: 21 },
     fim: { mes: 7, dia: 22 },
     frases: [
@@ -250,7 +250,7 @@ export const dadosSignos: Signo[] = [
   {
     nome: "Libra",
     dia: "23/09 - 22/10 ",
-    signo: '/libra.jpg',
+    signo: '/libra.png',
     inicio: { mes: 9, dia: 23 },
     fim: { mes:10  , dia: 22 },
     frases: [

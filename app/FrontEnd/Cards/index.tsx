@@ -12,7 +12,7 @@ export default function CardsSignos({ signo, nome, dia, frase }: Props) {
   return (
     <div className={estilos.cardPrincipal}>
       <div className={estilos.cardConteudo}>
-        <Image src={signo} alt={nome} width={120} height={120} className={estilos.imagemCard} />
+        <Image src={signo} alt={nome} width={200} height={150} className={estilos.imagemCard} />
         <h2>{nome}</h2>
         <p className={estilos.dataCard}>{dia}</p>
         <p className={estilos.dataCard}>Mensagem do Dia:</p>

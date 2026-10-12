@@ -78,8 +78,8 @@ export default function Home() {
                 <Image
                   src={signo.signo}
                   alt={signo.nome}
-                  width={42}
-                  height={42}
+                  width={200}
+                  height={200}
                   className={estilos.signoMiniatura}
                 />
                 <span>{signo.nome}</span>
